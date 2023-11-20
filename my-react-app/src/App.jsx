@@ -1,7 +1,7 @@
 import PokemonCard from './components/PokemonCard';
 import './App.css'; // Assurez-vous que le chemin est correct
 import  { useState , useEffect} from 'react';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar'; 
 
 
 const pokemonList = [

@@ -19,3 +19,4 @@ function NavBar({ pokemonList, setPokemonIndex }) {
     );
 }
 
+export default NavBar;
