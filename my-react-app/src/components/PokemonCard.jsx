@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
-import '../assets/Pokemon.css'; // Assurez-vous que le chemin est correct
+import '../assets/Pokemon.css';
 
 function PokemonCard({ pokemon }) {
+
     return (
         <figure className='Pokedox'>
             {pokemon.imgSrc ? (
