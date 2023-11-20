@@ -32,15 +32,14 @@ const pokemonList = [
   console.log(pokemonList);
   function App() {
     const [pokemonIndex, setPokemonIndex] = useState(0);
-    const maxIndex = pokemonList.length - 1;
-    console.log(pokemonIndex);
 
     return (
         <div>
-            <NavBar pokemonIndex={pokemonIndex} setPokemonIndex={setPokemonIndex} maxIndex={maxIndex} />
+            <NavBar pokemonList={pokemonList} setPokemonIndex={setPokemonIndex} />
             <PokemonCard pokemon={pokemonList[pokemonIndex]} />
         </div>
     );
 }
+
 
 export default App;
