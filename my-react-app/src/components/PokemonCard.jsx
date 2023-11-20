@@ -7,7 +7,7 @@ function PokemonCard() {
     return (
         <figure className='Pokedox'>
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur" />
-            <figcaption>Bulbasaur</figcaption>
+            <figcaption className='title'>Bulbasaur</figcaption>
         </figure>
     );
 }
